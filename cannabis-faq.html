@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cannabis FAQ - GreenCare</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    details {
+      background: white;
+      border-radius: 15px;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+    details:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    details[open] summary::after {
+      content: "▲";
+    }
+    summary {
+      font-weight: 600;
+      color: var(--primary-color);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1.1rem;
+    }
+    summary::after {
+      content: "▼";
+      font-size: 0.9rem;
+      color: var(--primary-color);
+    }
+  </style>
+</head>
+<body>
+
+<!-- 🌿 Navigation -->
+<nav class="container-fluid">
+  <ul><li><strong>GreenCare</strong></li></ul>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="marijuana-card.html">Marijuana Card</a></li>
+    <li><a href="cannabis-faq.html" class="contrast">Cannabis FAQ</a></li>
+    <li><a href="#footer">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- 🌿 Hero Section -->
+<header class="hero fade-in" style="background: linear-gradient(rgba(46,125,50,0.75), rgba(46,125,50,0.75)), url('image-faq-hero.jpg') center/cover no-repeat;">
+  <h1>Cannabis FAQ</h1>
+  <p>Your questions about medical marijuana — answered by GreenCare experts.</p>
+</header>
+
+<!-- 🌿 FAQ Section -->
+<main class="container" style="margin-top:3rem;">
+  <h2 style="text-align:center;">Frequently Asked Questions</h2>
+
+  <section class="fade-in" style="margin-top:2rem; max-width:800px; margin-left:auto; margin-right:auto;">
+    <details>
+      <summary>What is a medical marijuana card?</summary>
+      <p>A medical marijuana card is a state-issued identification that allows patients with qualifying conditions to purchase and use cannabis legally for medical purposes under the supervision of a licensed physician.</p>
+    </details>
+
+    <details>
+      <summary>Who qualifies for a medical marijuana card?</summary>
+      <p>Eligibility depends on your medical history and your condition. Common qualifying conditions include chronic pain, anxiety, PTSD, epilepsy, cancer, and more. Our GreenCare physicians will help determine your eligibility during your evaluation.</p>
+    </details>
+
+    <details>
+      <summary>How do I renew my GreenCare medical marijuana card?</summary>
+      <p>Renewing your card is simple. Just schedule an appointment through our website or call our office. We’ll handle your renewal quickly and ensure your certification remains active.</p>
+    </details>
+
+    <details>
+      <summary>Is my personal information kept private?</summary>
+      <p>Yes, absolutely. At GreenCare, we take your privacy seriously. All consultations and medical records are confidential and handled according to strict data protection policies.</p>
+    </details>
+
+    <details>
+      <summary>Can I use my GreenCare certification in another state?</summary>
+      <p>Medical marijuana laws vary by region. Some states allow reciprocity, while others do not. Our team can provide guidance on how to comply with local laws when traveling or relocating.</p>
+    </details>
+
+    <details>
+      <summary>Do you offer online or virtual consultations?</summary>
+      <p>Yes. GreenCare provides secure virtual evaluations for patients who prefer online appointments. You can complete your consultation from the comfort of your home.</p>
+    </details>
+  </section>
+</main>
+
+<!-- 🌿 Footer -->
+<footer class="container" id="footer" style="margin-top:3rem;">
+  <div class="grid">
+    <section>
+      <h3>Contact Us</h3>
+      <p>📞 +254 732 798029<br>📧 <a href="mailto:victormwangik052@gmail.com">victormwangik052@gmail.com</a></p>
+    </section>
+    <section>
+      <h3>Sitemap</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="marijuana-card.html">Marijuana Card</a></li>
+        <li><a href="cannabis-faq.html">FAQ</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </section>
+    <section>
+      <h3>Cities We Service</h3>
+      <ul>
+        <li>DENVER</li>
+        <li>COLORADO</li>
+        <li>CALIFORNIA</li>
+        <li>MEMPHIS</li>
+      </ul>
+    </section>
+  </div>
+
+  <section>
+    <iframe src="https://www.google.com/maps?q=Nairobi,+Kenya&output=embed"></iframe>
+  </section>
+  <small>© 2025 GreenCare. All rights reserved.</small>
+</footer>
+
+<!-- 🌿 Floating Button -->
+<div class="floating-button" title="Contact Us">💬</div>
+
+<script src="script.js"></script>
+</body>
+</html>
